@@ -10,8 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping
 @RequestMapping("/user")
 class UserController {
 
-  Logger log = LoggerFactory.getLogger(this.class)
-
   @RequestMapping('/show')
   ModelAndView show(Principal principal){
     Map details = [:]
