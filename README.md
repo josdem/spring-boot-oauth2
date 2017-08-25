@@ -14,3 +14,6 @@ https://github.com/josdem/spring-boot-oauth2/wiki/YAML-File
 gradle -Dspring.config.location=$HOME/.oauth2/application-development.yml bootRun
 ```
 
+#### Read this as reference
+
+http://josdem.io/techtalk/spring/spring_boot_oauth2/
